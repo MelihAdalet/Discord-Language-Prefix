@@ -1,6 +1,6 @@
 # Discord Language Prefix
 * A Discord bot who can change his Language and Prefix
-* If you want to use this Code add me on Discord (Dev_Span#8884) or Join my Discord Server
+* If you want to use this Code add me on Discord (Dev_Span#8884) or Join my [Discord Server](https://discord.gg/deVpa7xyP3)
 
 My Discord Support Server [Luna Support](https://discord.gg/deVpa7xyP3)
 
