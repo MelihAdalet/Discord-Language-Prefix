@@ -62,7 +62,7 @@ module.exports = {
       .setColor("#55ff55")
       .setDescription(`You have Successfully changed the prefix to ${prefix}!`); //did
     message.channel.send(embed).then(messageToReact => {
-      messageToReact.react("<a:LunaYes:817452322418196535>");
+      messageToReact.react("✅");
     })
 
   }
