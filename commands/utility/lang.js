@@ -56,7 +56,7 @@ module.exports = {
       .setColor("GREEN")
       .setDescription(":flag_us: The language has been changed to `English`")
     message.channel.send(embed).then(messageToReact => {
-      messageToReact.react("<a:LunaYes:817452322418196535>");
+      messageToReact.react("✅");
     })
   }
 
@@ -72,7 +72,7 @@ module.exports = {
       .setColor("GREEN")
       .setDescription(":flag_tr: Dil `Türkçe` olarak değiştirildi")
     message.channel.send(embed).then(messageToReact => {
-      messageToReact.react("<a:LunaYes:817452322418196535>");
+      messageToReact.react("✅");
     })
   }
 
