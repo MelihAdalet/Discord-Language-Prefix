@@ -1,6 +1,6 @@
 # Discord Language Prefix
-A Discord bot who can change his Language and Prefix
-If you want to use this Code add me on Discord or Join my Server
+* A Discord bot who can change his Language and Prefix
+* If you want to use this Code add me on Discord or Join my Server
 
 My Discord Support Server [Luna Support](https://discord.gg/deVpa7xyP3)
 
