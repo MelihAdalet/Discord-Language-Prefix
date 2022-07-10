@@ -1,3 +1,3 @@
-exports.TOKEN = "Your Bot Token";
+exports.TOKEN = "NzY2NzI2MTMyNzg2NjU5NDEw.G4PMK9.WJmHilt_96rn8JIp9P9wU_hk1GUXBxUEJHNbN0";
 
-exports.PREFIX = 'Your Main Prefix';
+exports.PREFIX = '!';
