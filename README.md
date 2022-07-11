@@ -23,5 +23,11 @@ My Discord Support Server [Luna Support](https://discord.gg/deVpa7xyP3)
 If you want to add More Commands just Star the Project.
 If this reach 100 Starrs, i will update the Project. 
 
+## 💨 Run the projects
+
+Glitch [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/Dev-Span/YouTube-Bot-Discord)
+or
+Repl.it [![Run on Repl.it](https://repl.it/badge/github/SudhanPlayz/Discord-MusicBot)](https://repl.it/github/Dev-Span/YouTube-Bot-Discord)
+
 # Contributors:
  * [Dev_Span](https://github.com/Dev-Span) -Code and Commands, File Structure and Message Events handler
