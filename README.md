@@ -13,7 +13,7 @@ My Discord Support Server [Luna Support](https://discord.gg/deVpa7xyP3)
 * Run `node index.js` to ***RUN*** the bot.
 
 # config.js 
-````javascript
+```javascript
 exports.TOKEN = "Your Token";
 
 exports.PREFIX = 'Your Prefix';
