@@ -8,9 +8,9 @@ My Discord Support Server [Luna Support](https://discord.gg/deVpa7xyP3)
 * This Project
 * Node.js, Discord.js Installed
 * Discord Bot Token, Prefix
+* Fill config.js
 * Run `npm i` once in Terminal to install Dependencies
 * Run `node index.js` to ***RUN*** the bot.
-* or just run the Bat files
 
 #### Features & Info
 * Author: `Dev_Span`
