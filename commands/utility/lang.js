@@ -53,7 +53,7 @@ module.exports = {
     db.set(`lang_${message.guild.id}`, "en")
 
     const embed = new Discord.MessageEmbed()
-      .setColor("GREEN")
+      .setColor("#55ff55")
       .setDescription(":flag_us: The language has been changed to `English`")
     message.channel.send(embed).then(messageToReact => {
       messageToReact.react("✅");
@@ -69,7 +69,7 @@ module.exports = {
     db.set(`lang_${message.guild.id}`, "tr")
 
     const embed = new Discord.MessageEmbed()
-      .setColor("GREEN")
+      .setColor("#55ff55")
       .setDescription(":flag_tr: Dil `Türkçe` olarak değiştirildi")
     message.channel.send(embed).then(messageToReact => {
       messageToReact.react("✅");
