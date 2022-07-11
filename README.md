@@ -25,9 +25,9 @@ If this reach 100 Starrs, i will update the Project.
 
 ## 💨 Run the projects
 
-Glitch [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/Dev-Span/YouTube-Bot-Discord)
+Glitch [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/Dev-Span/Discord-Language-Prefix)
 or
-Repl.it [![Run on Repl.it](https://repl.it/badge/github/SudhanPlayz/Discord-MusicBot)](https://repl.it/github/Dev-Span/YouTube-Bot-Discord)
+Repl.it [![Run on Repl.it](https://repl.it/badge/github/SudhanPlayz/Discord-MusicBot)](https://repl.it/github/Dev-Span/Discord-Language-Prefix)
 
 # Contributors:
  * [Dev_Span](https://github.com/Dev-Span) -Code and Commands, File Structure and Message Events handler
