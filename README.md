@@ -12,6 +12,13 @@ My Discord Support Server [Luna Support](https://discord.gg/deVpa7xyP3)
 * Run `npm i` once in Terminal to install Dependencies
 * Run `node index.js` to ***RUN*** the bot.
 
+# config.js 
+````javascript
+exports.TOKEN = "Your Token";
+
+exports.PREFIX = 'Your Prefix';
+```
+
 #### Features & Info
 * Author: `Dev_Span`
 * This Bot is for Users, who want to make his own Discord Bot with a Language and Prefix system.
