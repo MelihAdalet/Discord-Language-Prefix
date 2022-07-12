@@ -34,11 +34,11 @@ module.exports = {
             var log = new Discord.MessageEmbed()
                 .setTitle("**Help Menu: Main**")
                 .setColor(`#d9d9d9`)
-                .addField(`**👑Moderation**`, `[ \`${prefix}help mod\` ]`, true)
+                .addField(`**⚙️Utility**`, `[ \`${prefix}help util\` ]`, true)
 
             message.channel.send(log);
         }
-        else if (args[0].toLowerCase() === "mod") {
+        else if (args[0].toLowerCase() === "util") {
             var commandArray = `
 1) ${prefix}prefix
 2) ${prefix}lang
@@ -54,7 +54,7 @@ Nothing to see here
             let page = 1
 
             var embed = new Discord.MessageEmbed()
-                .setTitle('**Help Menu: [Moderation]👑**')
+                .setTitle('**Help Menu: [Utility]⚙️**')
                 .setColor("#d9d9d9") // Set the color
                 .setFooter(`Page ${page} of ${pages.length}`, bot.user.displayAvatarURL())
                 .setDescription(pages[page - 1])
