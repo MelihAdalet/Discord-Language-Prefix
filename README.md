@@ -38,7 +38,7 @@ Glitch [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2
 or
 Repl.it [![Run on Repl.it](https://repl.it/badge/github/SudhanPlayz/Discord-MusicBot)](https://repl.it/github/Dev-Span/Discord-Language-Prefix)
 
-### Photos of the Bot
+### Pictures of the Bot
 <img src="https://raw.githubusercontent.com/Dev-Span/Discord-Language-Prefix/main/.github/src/Example%20Code%20Photo.png" width="600px"> 
 
 # Contributors:
