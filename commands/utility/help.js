@@ -26,6 +26,10 @@ module.exports = {
             console.log(e)
         };
 
+        let language = db.fetch(`lang_${message.guild.id}`)
+        if (language === null) language = "en"
+        const lang = require(`../../lang/${language}.js`)
+
         if (message.content.toLowerCase() === `${prefix}help`) {
             var log = new Discord.MessageEmbed()
                 .setTitle("**Help Menu: Main**")

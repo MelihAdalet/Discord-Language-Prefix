@@ -16,41 +16,38 @@ module.exports = {
   run: async (bot, message, args) => {
     let prefix;
     if (message.author.bot || message.channel.type === "dm") return;
-        try {
-            let fetched = await db.fetch(`prefix_${message.guild.id}`);
-            if (fetched == null) {
-                prefix = PREFIX
-            } else {
-                prefix = fetched
-            }
-        } catch (e) {
-            console.log(e)
+    try {
+      let fetched = await db.fetch(`prefix_${message.guild.id}`);
+      if (fetched == null) {
+        prefix = PREFIX
+      } else {
+        prefix = fetched
+      }
+    } catch (e) {
+      console.log(e)
     };
+
+    let language = db.fetch(`lang_${message.guild.id}`)
+    if (language === null) language = "en"
+    const lang = require(`../../lang/${language}.js`)
 
     let option = args[0];
 
-    //PERMISSION
-    if (!message.member.hasPermission("MANAGE_GUILD")) {
-      return message.channel.send("You are not allowed or do not have permission to change prefix")
-    }
-
-
-
-
-
     let embed1 = new Discord.MessageEmbed()
       .setColor("RED")
-      .setDescription(`You can not send prefix more than 5 characters`); //did
+      .setDescription(`${lang.Prefix.LongerThan5}`); //did
 
 
     let embed2 = new Discord.MessageEmbed()
       .setColor("RED")
-      .setDescription(`Please enter a Prefix!`); //did
+      .setDescription(`${lang.Prefix.enter}`); //did
 
-    if (!message.member.hasPermission("ADMINISTRATOR")) return;
-    if (!args[0]) return message.channel.send(embed2);
-    if (args[0].length >= 5)
-      return message.reply(embed1);
+      if (!message.member.hasPermission("MANAGE_GUILD")) {
+        return message.channel.send(`${lang.Prefix.Perms}`)
+      };
+      if (!args[0]) return message.channel.send(embed2);
+      if (args[0].length >= 5)
+        return message.reply(embed1);
 
 
     db.set(`prefix_${message.guild.id}`, args[0]), err => {
@@ -60,7 +57,7 @@ module.exports = {
 
     let embed = new Discord.MessageEmbed()
       .setColor("#55ff55")
-      .setDescription(`You have Successfully changed the prefix to ${prefix}!`); //did
+      .setDescription(`${lang.Prefix.succ}`); //did
     message.channel.send(embed).then(messageToReact => {
       messageToReact.react("✅");
     })
