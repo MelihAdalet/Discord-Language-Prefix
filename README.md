@@ -30,7 +30,7 @@ exports.PREFIX = 'Your Prefix';
 * prefix
 
 If you want to add More Commands just Star the Project.
-If this Project reach 100 Stars, i will update the Project. 
+If this Project reach 10 Stars, i will update the Project. 
 
 #### 💨 Run the projects
 
