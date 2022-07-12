@@ -42,4 +42,4 @@ Repl.it [![Run on Repl.it](https://repl.it/badge/github/SudhanPlayz/Discord-Musi
 <img src="https://raw.githubusercontent.com/Dev-Span/Discord-Language-Prefix/main/.github/src/Example%20Code%20Photo.png" width="600px"> 
 
 # Contributors:
- * [Dev_Span](https://github.com/Dev-Span) -Code and Commands, File Structure and Message Events handler
+ * [Dev_Span](https://github.com/Dev-Span)
