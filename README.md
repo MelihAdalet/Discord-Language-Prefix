@@ -6,7 +6,7 @@
 - [Click here to add Luna](https://discord.com/api/oauth2/authorize?client_id=723927058870304869&permissions=8&scope=bot%20applications.commands&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.com%2Finvite%2FexkAV5B9ez)
 
 #### Photos of the Bot
-<img src="https://raw.githubusercontent.com/Dev-Span/Discord-Language-Prefix/main/.github/src/Example%20Code%20Photo.png"> 
+<img src="https://raw.githubusercontent.com/Dev-Span/Discord-Language-Prefix/main/.github/src/Example%20Code%20Photo.png" width="150px"> 
 
 #### Requirements & Steps
 * This Project
