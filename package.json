@@ -1,7 +1,7 @@
 {
   "name": "Discord-Language-Prefix-Change",
   "version": "2.0.0",
-  "description": "",
+  "description": "A discord bot who made by Dev_Span, Only Private use. An example for a Bot who can change his Prefix and Language.",
   "main": "index.js",
   "dependencies": {
     "@greencoast/logger": "^1.0.1",
