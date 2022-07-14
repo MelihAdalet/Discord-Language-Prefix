@@ -34,7 +34,8 @@ module.exports = {
             var log = new Discord.MessageEmbed()
                 .setTitle("**Help Menu: Main**")
                 .setColor(`#d9d9d9`)
-                .addField(`**⚙️Utility**`, `[ \`${prefix}help util\` ]`, true)
+                .addField(`**⚙️Utility**`, `[\`${prefix}help util\` ]`, true)
+                .setDescription(`**[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**`)
 
             message.channel.send(log);
         }
@@ -47,8 +48,8 @@ module.exports = {
 Nothing to see here
 `
 
-            pageN1 = "**\n💠Commands: **\n`\`\`js\n" + commandArray + "\`\`\`";
-            pageN2 = "**\n💠Commands: **\n`\`\`js\n" + commandA2 + "\`\`\`";
+            pageN1 = "**\n💠Commands: **\n`\`\`js\n" + commandArray + "\`\`\`" + `**[Github](https://github.com/Dev-Span/Discord-Language-Prefix/)**`;
+            pageN2 = "**\n💠Commands: **\n`\`\`js\n" + commandA2 + "\`\`\`" + `**[Github](https://github.com/Dev-Span/Discord-Language-Prefix/)**`;
 
             let pages = [pageN1, pageN2]
             let page = 1

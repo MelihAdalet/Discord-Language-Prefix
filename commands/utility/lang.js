@@ -34,11 +34,11 @@ module.exports = {
 
   const mg = new Discord.MessageEmbed()
     .setColor("RED")
-    .setDescription(lang.lang.mg)
+    .setDescription(`${lang.lang.mg} **[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**`)
 
   const msg = new Discord.MessageEmbed()
     .setColor("RED")
-    .setDescription(lang.lang.msg + `\`${prefix}${lang.lang.msg2}\``)
+    .setDescription(`${lang.lang.msg}` + `\`${prefix}${lang.lang.msg2}\`` + ` **[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**`)
 
   if (!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send(mg)
   if (!args[0]) return message.channel.send(msg);
@@ -47,14 +47,14 @@ module.exports = {
   if (args[0] === "en") {
     const err = new Discord.MessageEmbed()
       .setColor("RED")
-      .setDescription(lang.lang.err)
+      .setDescription(`${lang.lang.err} **[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**`)
 
     if (language === "en") return message.channel.send(err)
     db.set(`lang_${message.guild.id}`, "en")
 
     const embed = new Discord.MessageEmbed()
       .setColor("#55ff55")
-      .setDescription(":flag_us: The language has been changed to `English`")
+      .setDescription(":flag_us: The language has been changed to `English` **[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**")
     message.channel.send(embed).then(messageToReact => {
       messageToReact.react("✅");
     })
@@ -63,14 +63,14 @@ module.exports = {
   if (args[0] === "tr") {
     const err = new Discord.MessageEmbed()
       .setColor("RED")
-      .setDescription(lang.lang.err)
+      .setDescription(`${lang.lang.err} **[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**`)
 
     if (language === "tr") return message.channel.send(err)
     db.set(`lang_${message.guild.id}`, "tr")
 
     const embed = new Discord.MessageEmbed()
       .setColor("#55ff55")
-      .setDescription(":flag_tr: Dil `Türkçe` olarak değiştirildi")
+      .setDescription(":flag_tr: Dil `Türkçe` olarak değiştirildi **[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**")
     message.channel.send(embed).then(messageToReact => {
       messageToReact.react("✅");
     })

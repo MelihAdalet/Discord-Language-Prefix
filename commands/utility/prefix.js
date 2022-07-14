@@ -31,19 +31,18 @@ module.exports = {
     if (language === null) language = "en"
     const lang = require(`../../lang/${language}.js`)
 
-    let option = args[0];
 
     let embed1 = new Discord.MessageEmbed()
       .setColor("RED")
-      .setDescription(`${lang.Prefix.LongerThan5}`); //did
+      .setDescription(`${lang.Prefix.LongerThan5}  **[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**`); //did
 
 
     let embed2 = new Discord.MessageEmbed()
       .setColor("RED")
-      .setDescription(`${lang.Prefix.enter}`); //did
+      .setDescription(`${lang.Prefix.enter}  **[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**`); //did
 
       if (!message.member.hasPermission("MANAGE_GUILD")) {
-        return message.channel.send(`${lang.Prefix.Perms}`)
+        return message.channel.send(`${lang.Prefix.Perms}  **[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**`)
       };
       if (!args[0]) return message.channel.send(embed2);
       if (args[0].length >= 5)
@@ -57,7 +56,7 @@ module.exports = {
 
     let embed = new Discord.MessageEmbed()
       .setColor("#55ff55")
-      .setDescription(`${lang.Prefix.succ}`); //did
+      .setDescription(`${lang.Prefix.succ}  **[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**`); //did
     message.channel.send(embed).then(messageToReact => {
       messageToReact.react("✅");
     })
