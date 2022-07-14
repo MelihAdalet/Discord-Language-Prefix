@@ -1,5 +1,5 @@
 //====================================================================================CONSTANTS REQUIRED ON READY=============================================================================================
-const { Client, Collection } = require('discord.js');
+const { Client, Collection, DiscordAPIError, MessageEmbed } = require('discord.js');
 const { PREFIX, TOKEN } = require('./config');
 const bot = new Client({ disableMentions: 'everyone' });
 const fs = require("fs");
@@ -45,9 +45,14 @@ bot.on('message', async message => {
             } catch {
             prefix = PREFIX
     };
+
+    const embed = new MessageEmbed()
+    .setColor("GREEN")
+    .setDescription(`\nMy prefix for \`${message.guild.name}\` is \`${prefix}\` Type \`${prefix}help\` for help **[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**`)
+
     try {
         if (message.mentions.has(bot.user.id) && !message.content.includes("@everyone") && !message.content.includes("@here")) {
-          message.channel.send(`\nMy prefix for \`${message.guild.name}\` is \`${prefix}\` Type \`${prefix}help\` for help`);
+          message.channel.send(embed);
           }
           
     } catch {
