@@ -29,9 +29,6 @@ exports.PREFIX = 'Your Prefix';
 * lang
 * prefix
 
-If you want, that i add More Commands just Star the Project.
-If this Project reach 10 Stars, i will update the Project. 
-
 #### 💨 Run the projects
 
 Glitch [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/Dev-Span/Discord-Language-Prefix)
