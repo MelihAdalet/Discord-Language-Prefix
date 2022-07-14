@@ -1,5 +1,6 @@
 # Discord Language Prefix
 * A Discord bot who can change his Language and Prefix
+* Only Privat use
 
 - My Discord Support Server [Luna Support](https://discord.gg/deVpa7xyP3)
 - [Click here to add Luna](https://discord.com/api/oauth2/authorize?client_id=723927058870304869&permissions=8&scope=bot%20applications.commands&response_type=code&redirect_uri=https%3A%2F%2Fdiscord.com%2Finvite%2FexkAV5B9ez)
