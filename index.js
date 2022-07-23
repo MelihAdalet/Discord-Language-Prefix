@@ -46,11 +46,12 @@ bot.on('message', async message => {
             prefix = PREFIX
     };
 
-    const embed = new MessageEmbed()
+    try {
+            const embed = new MessageEmbed()
     .setColor("GREEN")
     .setDescription(`\nMy prefix for \`${message.guild.name}\` is \`${prefix}\` Type \`${prefix}help\` for help **[Github](https://github.com/Dev-Span/Discord-Language-Prefix)**`)
 
-    try {
+        
         if (message.mentions.has(bot.user.id) && !message.content.includes("@everyone") && !message.content.includes("@here")) {
           message.channel.send(embed);
           }
