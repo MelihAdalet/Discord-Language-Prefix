@@ -40,3 +40,7 @@ Repl.it [![Run on Repl.it](https://repl.it/badge/github/SudhanPlayz/Discord-Musi
 
 # Contributors:
  * [Dev_Span](https://github.com/Dev-Span)
+
+<p align="center">
+	<img src="https://github-readme-stats.vercel.app/api/pin/?username=Dev-Span&repo=Discord-Language-Prefix&theme=dark" style="float: left; margin: 0px 10px 15px 1px;"/> <a style="font-size: 20px"> <a style="font-size: 30px">
+</p>
